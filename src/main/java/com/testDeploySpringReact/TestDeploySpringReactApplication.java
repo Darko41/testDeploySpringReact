@@ -15,8 +15,8 @@ public class TestDeploySpringReactApplication {
 	}
 
 	@GetMapping("/")
-	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s!", name);
+	public String hello(@RequestParam(value = "name", defaultValue = "Biciz :)") String name) {
+		return String.format("Whats up %s!", name);
 	}
 	
 }
